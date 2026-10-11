@@ -19,4 +19,4 @@
 - docker compose down 후 up 해도 week1 표가 유지됨 (볼륨 동작 확인)
  
 ## 겪은 문제와 해결
-- 
+- 없었습니다.
