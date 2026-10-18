@@ -19,9 +19,9 @@ python3 check_robots.py       # 수집 가능 여부 확인
 python3 crawler_pipeline.py   # 3페이지 수집·적재
 
 ## 4. 검증한 것
-- 첫 실행: parsed 10 / saved 10 × 3페이지 = 30건
+- 첫 실행: parsed 10 / saved 10 × 10페이지 = 100건
 - 재실행: parsed 10 / saved 0 (DB 제약이 중복을 막음)
-- SELECT COUNT(*) FROM quotes → 30
+- SELECT COUNT(*) FROM quotes → 100
 
 ## 5. 남은 개선점
 - tags를 쉼표 문자열로 저장 중 (1NF 위반) → quote_tags 교차 표로 분리 예정
