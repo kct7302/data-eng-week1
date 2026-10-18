@@ -60,4 +60,8 @@ CREATE TABLE order_items (
   CONSTRAINT fk_items_product FOREIGN KEY (product_id) REFERENCES products (id)
 );
 
+## ERD 설계
+![ERD설계](./ERD_설계.png)
+
+
 ```
