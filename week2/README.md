@@ -1,7 +1,7 @@
 # 2주차 산출물 — 쇼핑몰 ERD 설계 + 크롤링 파이프라인
  
 ## 1. ERD 설계서
-- 파일: ERD_설계서.md (엔터티 정의 · 관계 · 정규화 근거 · 반정규화 결정)
+- 파일: [ERD_설계_설명.md](./ERD_설계_설명.md) (엔터티 정의 · 관계 · 정규화 근거 · 반정규화 결정)
 - 표 4개: customers · products · orders · order_items
 - N:M(주문↔상품)을 order_items 교차 표로 해소
 
